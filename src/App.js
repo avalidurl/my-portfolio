@@ -1,9 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
+// GasPrice Component
+const GasPrice = () => {
+  const [gasPrice, setGasPrice] = useState(null);
+
+  useEffect(() => {
+    const fetchGasPrice = async () => {
+      const response = await fetch(`https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=YourAPIKeyHere`);
+      const data = await response.json();
+      setGasPrice(data.result.SafeGasPrice); // Adjust depending on the API response
+    };
+
+    fetchGasPrice();
+    const intervalId = setInterval(fetchGasPrice, 60000); // Update every 60 seconds
+
+    return () => clearInterval(intervalId); // Clear interval on component unmount
+  }, []);
+
+  return (
+    <div className="gas-price">
+      {gasPrice ? `Gas Price: ${gasPrice} Gwei` : 'Loading...'}
+    </div>
+  );
+};
+
+// Main App Component
 function App() {
   return (
     <div className="App">
+      <GasPrice />
       <header className="App-header">
         <h1>Gökhan Turhan</h1>
         <h4>proactive artist<br/> experimenting at the longhouse of finance, art, compute<br/> to appreciate the use of knowledge in society.</h4>

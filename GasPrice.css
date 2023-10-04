@@ -1,0 +1,9 @@
+.gas-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #0f0;  /* Hacker green text */
+    font-family: 'Courier New', Courier, monospace;
+    /* Add more styles as needed */
+  }
+  
