@@ -1,6 +1,6 @@
 body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000000;  /* Black background */
+  color: #0f0;  /* Hacker green text */
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -11,6 +11,26 @@ body {
 
 h1 {
   font-weight: bold;
+}
+
+h1:hover {
+  color: #648fff;  /* IBM design color for h1 hover */
+}
+
+h2 {
+  /* You can add additional styles here */
+}
+
+h2:hover {
+  color: #785ef0;  /* IBM design color for h2 hover */
+}
+
+h4 {
+  /* You can add additional styles here */
+}
+
+h4:hover {
+  color: #ffb000;  /* IBM design color for h4 hover */
 }
 
 .link-section {
@@ -26,10 +46,70 @@ h1 {
 
 .link-item {
   margin: 0.5rem 0;
-  color: #13ee04;  /* Classic blue for hyperlinks */
+  color: #13ee04;  /* Classic green for hyperlinks */
   text-decoration: underline;
 }
 
-.link-item:hover {
-  color: #41e16e;  /* Royal blue for hover */
+.link-item.twitter:hover {
+  color: #648fff;
+}
+
+.link-item.github:hover {
+  color: #785ef0;
+}
+
+.link-item.farcaster:hover {
+  color: #ffb000;
+}
+
+.link-item.lens:hover {
+  color: #fe6100;
+}
+
+.link-item.bluesky:hover {
+  color: #dc267f;
+}
+
+.link-item.substack:hover {
+  color: #8a3ffc;
+}
+
+.link-item.mirror:hover {
+  color: #009d09;
+}
+
+.link-item.paragraph:hover {
+  color: #de1e7e;
+}
+
+.link-item.medium:hover {
+  color: #b620e0;
+}
+
+.link-item.pub:hover {
+  color: #2d3e50;
+}
+
+.link-item.linkedin:hover {
+  color: #0062ff;
+}
+
+.link-item.academia:hover {
+  color: #ad1d28;
+}
+
+.link-item.scholar:hover {
+  color: #9e4770;
+}
+
+.link-item.gate:hover {
+  color: #0072c3;
+}
+
+.link-item.commons:hover {
+  color: #4b1f89;
+}
+
+.link-section:hover {
+  color: #785ef0;  /* IBM design color for link-section hover */
 }
