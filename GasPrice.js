@@ -1,5 +1,5 @@
 const GasPrice = () => {
-    const [gasPrice, setGasPrice] = useState(null);
+    const [gasData, setGasData] = useState(null);
     const [error, setError] = useState(null);
   
     useEffect(() => {
@@ -8,14 +8,14 @@ const GasPrice = () => {
           const response = await fetch(`https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=${process.env.REACT_APP_ETHERSCAN_API_KEY}`);
           if (response.ok) {
             const data = await response.json();
-            setGasPrice(data.result.SafeGasPrice);
-            setError(null);  // Clear any existing error
+            setGasData(data.result);
+            setError(null);
           } else {
-            setError('Could not fetch gas price');
+            setError('Could not fetch gas data');
           }
         } catch (error) {
-          setError('Failed to fetch gas price');
-          console.error("Failed to fetch gas price:", error);
+          setError('Failed to fetch gas data');
+          console.error("Failed to fetch gas data:", error);
         }
       };
   
@@ -27,9 +27,20 @@ const GasPrice = () => {
   
     return (
       <div className="gas-price">
-        {error ? error : (gasPrice ? `${gasPrice} Gwei` : 'Loading...')}
+        {error ? error : (
+          gasData ? (
+            <>
+              Safe: {gasData.SafeGasPrice} Gwei, 
+              Proposed: {gasData.ProposeGasPrice} Gwei, 
+              Fast: {gasData.FastGasPrice} Gwei,
+              Base Fee: {gasData.suggestBaseFee},
+              Gas Used Ratio: {gasData.gasUsedRatio}
+            </>
+          ) : 'Loading...'
+        )}
       </div>
     );
   };
+  
   
   
