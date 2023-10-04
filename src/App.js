@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Gökhan Turhan</h1>
 
-        <h2>proactive artist<br/> experimenting at the longhouse of finance, art, compute<br/> to appreciate the use of knowledge in society.</h2>
+        <h4>proactive artist<br/> experimenting at the longhouse of finance, art, compute<br/> to appreciate the use of knowledge in society.</h4>
       </header>
       <main>
         <section className="link-section">
