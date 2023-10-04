@@ -6,7 +6,7 @@ const GasPrice = () => {
 
   useEffect(() => {
     const fetchGasPrice = async () => {
-      const response = await fetch(`https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=gsqr3am9z8mxyyCK88SYZUMZ4S2PBQ7CVZ`);
+      const response = await fetch(`https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=${process.env.REACT_APP_ETHERSCAN_API_KEY}`);
       const data = await response.json();
       setGasPrice(data.result.SafeGasPrice); // Adjust depending on the API response
     };
