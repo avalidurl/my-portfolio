@@ -1,11 +1,12 @@
-.App {
-  text-align: center;
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  padding: 1rem;
-  color: white;
+.App {
+  text-align: center;
+  margin: 2rem;
 }
 
 h1 {
@@ -25,10 +26,10 @@ h1 {
 
 .link-item {
   margin: 0.5rem 0;
-  color: #282c34;
-  text-decoration: none;
+  color: #0000ff;  /* Classic blue for hyperlinks */
+  text-decoration: underline;
 }
 
 .link-item:hover {
-  color: #4169E1;
+  color: #4169E1;  /* Royal blue for hover */
 }
