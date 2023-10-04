@@ -1,6 +1,6 @@
 body {
   background-color: #000000;
-  color: #18ff03;
+  color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -26,7 +26,7 @@ h1 {
 
 .link-item {
   margin: 0.5rem 0;
-  color: #0000ff;  /* Classic blue for hyperlinks */
+  color: #13ee04;  /* Classic blue for hyperlinks */
   text-decoration: underline;
 }
 
