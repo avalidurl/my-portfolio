@@ -1,6 +1,6 @@
 body {
-  background-color: #ffffff;  /* White background */
-  color: rgb(0, 0, 0);  /* Black text */
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   font-family: 'sans-serif', sans-serif, monospace;
 }
 
@@ -14,7 +14,7 @@ h1 {
 }
 
 h1:hover {
-  color: #648fff;  /* IBM design color for h1 hover */
+  color: #648fff;
 }
 
 h2 {
@@ -22,7 +22,7 @@ h2 {
 }
 
 h2:hover {
-  color: #785ef0;  /* IBM design color for h2 hover */
+  color: #785ef0;
 }
 
 h4 {
@@ -30,7 +30,7 @@ h4 {
 }
 
 h4:hover {
-  color: #ffb000;  /* IBM design color for h4 hover */
+  color: #ffb000;
 }
 
 .link-section {
@@ -46,8 +46,8 @@ h4:hover {
 
 .link-item {
   margin: 0.5rem 0;
-  color: black;  /* Changed from green to black */
-  text-decoration: none;  /* Removed underline */
+  color: black;
+  text-decoration: none;
 }
 
 /* Existing hover styles */
@@ -71,65 +71,58 @@ h4:hover {
   color: #dc267f;
 }
 
-.link-item.substack:hover {
-  color: #8a3ffc;
-}
-
-.link-item.mirror:hover {
-  color: #009d09;
-}
-
-.link-item.paragraph:hover {
-  color: #de1e7e;
-}
-
-.link-item.medium:hover {
-  color: #b620e0;
-}
-
-.link-item.pub:hover {
-  color: #2d3e50;
-}
-
-.link-item.linkedin:hover {
-  color: #0062ff;
-}
-
-.link-item.academia:hover {
-  color: #ad1d28;
-}
-
-.link-item.scholar:hover {
-  color: #9e4770;
-}
-
-.link-item.gate:hover {
-  color: #0072c3;
-}
-
-.link-item.commons:hover {
-  color: #4b1f89;
-}
-
 /* New hover styles for new link items */
 
 /* Chats & Guilds Section */
-.link-item.cag:hover,
-.link-item.discord:hover,
-.link-item.tg\:marketualresearchunit:hover,
-.link-item.tg\:unconditionalacceleration:hover,
-.link-item.tg\:farcasteristanbul:hover,
-.link-item.tg\:devcoffee:hover,
-.link-item.tg\:writingnfts:hover,
-.link-item.matrix:hover {
+.link-item.cag:hover {
+  color: #9370DB;  /* MediumPurple */
+}
+
+.link-item.discord:hover {
+  color: #4B0082;  /* Indigo */
+}
+
+.link-item.tg\:marketualresearchunit:hover {
   color: #7B68EE;  /* MediumSlateBlue */
 }
 
+.link-item.tg\:unconditionalacceleration:hover {
+  color: #8B008B;  /* DarkMagenta */
+}
+
+.link-item.tg\:farcasteristanbul:hover {
+  color: #9400D3;  /* Violet */
+}
+
+.link-item.tg\:devcoffee:hover {
+  color: #9932CC;  /* DarkOrchid */
+}
+
+.link-item.tg\:writingnfts:hover {
+  color: #BA55D3;  /* MediumOrchid */
+}
+
+.link-item.matrix:hover {
+  color: #DA70D6;  /* Orchid */
+}
+
 /* Aggregators Section */
-.link-item.linktree:hover,
-.link-item.nftd:hover,
-.link-item.luma:hover,
-.link-item.cardco:hover,
-.link-item.readcv:hover {
+.link-item.linktree:hover {
   color: #EE82EE;  /* Violet */
+}
+
+.link-item.nftd:hover {
+  color: #FF00FF;  /* Magenta */
+}
+
+.link-item.luma:hover {
+  color: #DB7093;  /* PaleVioletRed */
+}
+
+.link-item.cardco:hover {
+  color: #FF1493;  /* DeepPink */
+}
+
+.link-item.readcv:hover {
+  color: #C71585;  /* MediumVioletRed */
 }
