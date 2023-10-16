@@ -43,6 +43,7 @@ function App() {
             <a href="https://warpcast.com/gokhan" className="link-item farcaster">Farcaster</a>
             <a href="https://hey.xyz/u/acceleration" className="link-item lens">Lens</a>
             <a href="https://bsky.app/profile/0xgokhan.bsky.social" className="link-item bluesky">Bluesky</a>
+            <a href="https://cryptodon.lol/@gokhan" className="link-item cryptodon">Mastodon</a>
           </div>
         </section>
         <section className="link-section">
@@ -52,6 +53,7 @@ function App() {
             <a href="https://gokhan.mirror.xyz" className="link-item mirror">Mirror</a>
             <a href="https://paragraph.xyz/@gokhan" className="link-item paragraph">Paragraph</a>
             <a href="https://medium.com/@0xgokhan" className="link-item medium">Medium</a>
+            <a href="https://beta.cent.co/goekhanturhan/" className='link-item cent'>Cent</a>
             <a href="https://midnight.pub/site" className="link-item pub">Midnight Pub</a>
           </div>
         </section>
@@ -65,7 +67,30 @@ function App() {
             <a href="https://hcommons.org/members/gokhanturhan/" className="link-item commons">Humanities Commons</a>
           </div>
         </section>
-      </main>
+        <section className="link-section">
+          <h2>Chats & Guilds</h2>
+          <div className="links">
+            <a href="httpshttps://guild.xyz/conceptual" className="link-item cag">CAG Guild</a>
+            <a href="https://discord.gg/DvX5FRXKf9" className="link-item discord">Discord: CAG</a>
+            <a href="https://t.me/artinfinance" className="link-item tg: marketual research unit">TG: Marketual Research Unit</a>
+            <a href="https://t.me/eaccs" className="link-item tg: unconditional acceleration">TG: Unconditional Acceleration</a>
+            <a href="https://t.me/farcaster_istanbul" className="link-item tg: farcaster istanbul">TG: Farcaster Istanbul</a>
+            <a href="https://t.me/+sCGdzUEACdVmYjk0" className="link-item tg: devcoffee">TG: Devcoffee</a>
+            <a href="https://t.me/writingnfts" className="link-item tg: writing nfts">TG: Writing NFTs</a>
+            <a href="https://matrix.to/#/#art-in-finance:matrix.org" className='link-item matrix'>Matrix: Art in Finance</a>
+          </div>
+        </section>
+        <section className="link-section">
+          <h2>Aggregators</h2>
+          <div className="links">
+            <a href="https://linktr.ee/0xgokhan" className="link-item linktree">Linktree</a>
+            <a href="https://nf.td/gokhan" className="link-item nftd">NFTD</a>
+            <a href="https://lu.ma/u/gokhan" className="link-item luma">Luma</a>
+            <a href="https://0xgokhan.carrd.co/" className="link-item card co">Card Co</a>
+            <a href="https://read.cv/gokhanturhan" className="link-item read cv">Read CV</a>
+          </div>
+        </section>
+        </main>
     </div>
   );
 }

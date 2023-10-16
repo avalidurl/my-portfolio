@@ -1,7 +1,7 @@
 body {
-  background-color: #000000;  /* Black background */
-  color: #0f0;  /* Hacker green text */
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #ffffff;  /* Black background */
+  color: rgb(0, 0, 0);  /* Hacker green text */
+  font-family: 'sans-serif', sans-serif, monospace;
 }
 
 .App {
