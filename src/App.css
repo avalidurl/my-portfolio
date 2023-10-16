@@ -15,7 +15,6 @@ h1 {
 
 h1:hover {
   color: #648fff;
-  background-color: #f1f1f1;
 }
 
 h2 {
@@ -24,7 +23,6 @@ h2 {
 
 h2:hover {
   color: #785ef0;
-  background-color: #f1f1f1;
 }
 
 h4 {
@@ -33,7 +31,6 @@ h4 {
 
 h4:hover {
   color: #ffb000;
-  background-color: #f1f1f1;
 }
 
 .link-section {
@@ -51,100 +48,155 @@ h4:hover {
   margin: 0.5rem 0;
   color: black;
   text-decoration: none;
-  padding: 5px; /* Added padding for hover background */
 }
 
 /* Existing hover styles */
 .link-item.twitter:hover {
-  color: #648fff;
-  background-color: #f1f1f1;
+  color: red;
+  box-shadow: 0 0 5px red;
 }
 
 .link-item.github:hover {
-  color: #785ef0;
-  background-color: #f1f1f1;
+  color: blue;
+  box-shadow: 0 0 5px blue;
 }
 
 .link-item.farcaster:hover {
-  color: #ffb000;
-  background-color: #f1f1f1;
+  color: green;
+  box-shadow: 0 0 5px green;
 }
 
 .link-item.lens:hover {
-  color: #fe6100;
-  background-color: #f1f1f1;
+  color: red;
+  box-shadow: 0 0 5px red;
 }
 
 .link-item.bluesky:hover {
-  color: #dc267f;
-  background-color: #f1f1f1;
+  color: blue;
+  box-shadow: 0 0 5px blue;
 }
 
-/* New hover styles for new link items */
+.link-item.cryptodon:hover {
+  color: green;
+  box-shadow: 0 0 5px green;
+}
 
-/* Chats & Guilds Section */
+.link-item.substack:hover {
+  color: red;
+  box-shadow: 0 0 5px red;
+}
+
+.link-item.mirror:hover {
+  color: blue;
+  box-shadow: 0 0 5px blue;
+}
+
+.link-item.paragraph:hover {
+  color: green;
+  box-shadow: 0 0 5px green;
+}
+
+.link-item.medium:hover {
+  color: red;
+  box-shadow: 0 0 5px red;
+}
+
+.link-item.cent:hover {
+  color: blue;
+  box-shadow: 0 0 5px blue;
+}
+
+.link-item.pub:hover {
+  color: green;
+  box-shadow: 0 0 5px green;
+}
+
+.link-item.linkedin:hover {
+  color: red;
+  box-shadow: 0 0 5px red;
+}
+
+.link-item.academia:hover {
+  color: blue;
+  box-shadow: 0 0 5px blue;
+}
+
+.link-item.scholar:hover {
+  color: green;
+  box-shadow: 0 0 5px green;
+}
+
+.link-item.gate:hover {
+  color: red;
+  box-shadow: 0 0 5px red;
+}
+
+.link-item.commons:hover {
+  color: blue;
+  box-shadow: 0 0 5px blue;
+}
+
 .link-item.cag:hover {
-  color: #9370DB;
-  background-color: #f1f1f1;
+  color: green;
+  box-shadow: 0 0 5px green;
 }
 
 .link-item.discord:hover {
-  color: #4B0082;
-  background-color: #f1f1f1;
+  color: red;
+  box-shadow: 0 0 5px red;
 }
 
-.link-item.tg\:marketual research unit:hover {
-  color: #7B68EE;
-  background-color: #f1f1f1;
+.link-item.tgmarketualresearchunit:hover {
+  color: blue;
+  box-shadow: 0 0 5px blue;
 }
 
-.link-item.tg\:unconditional acceleration:hover {
-  color: #8B008B;
-  background-color: #f1f1f1;
+.link-item.tgunconditionalacceleration:hover {
+  color: green;
+  box-shadow: 0 0 5px green;
 }
 
-.link-item.tg\:farcaster istanbul:hover {
-  color: #9400D3;
-  background-color: #f1f1f1;
+.link-item.tgfarcasteristanbul:hover {
+  color: red;
+  box-shadow: 0 0 5px red;
 }
 
-.link-item.tg\:devcoffee:hover {
-  color: #9932CC;
-  background-color: #f1f1f1;
+.link-item.tgdevcoffee:hover {
+  color: blue;
+  box-shadow: 0 0 5px blue;
 }
 
-.link-item.tg\:writing nfts:hover {
-  color: #BA55D3;
-  background-color: #f1f1f1;
+.link-item.tgwritingnfts:hover {
+  color: green;
+  box-shadow: 0 0 5px green;
 }
 
 .link-item.matrix:hover {
-  color: #DA70D6;
-  background-color: #f1f1f1;
+  color: red;
+  box-shadow: 0 0 5px red;
 }
 
-/* Aggregators Section */
 .link-item.linktree:hover {
-  color: #EE82EE;
-  background-color: #f1f1f1;
+  color: blue;
+  box-shadow: 0 0 5px blue;
 }
 
 .link-item.nftd:hover {
-  color: #FF00FF;
-  background-color: #f1f1f1;
+  color: green;
+  box-shadow: 0 0 5px green;
 }
 
 .link-item.luma:hover {
-  color: #DB7093;
-  background-color: #f1f1f1;
+  color: red;
+  box-shadow: 0 0 5px red;
 }
 
-.link-item.card co:hover {
-  color: #FF1493;
-  background-color: #f1f1f1;
+.link-item.cardco:hover {
+  color: blue;
+  box-shadow: 0 0 5px blue;
 }
 
-.link-item.read cv:hover {
-  color: #C71585;
-  background-color: #f1f1f1;
+.link-item.readcv:hover {
+  color: green;
+  box-shadow: 0 0 5px green;
 }
