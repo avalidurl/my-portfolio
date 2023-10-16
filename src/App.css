@@ -1,6 +1,6 @@
 body {
-  background-color: #ffffff;  /* Black background */
-  color: rgb(0, 0, 0);  /* Hacker green text */
+  background-color: #ffffff;  /* White background */
+  color: rgb(0, 0, 0);  /* Black text */
   font-family: 'sans-serif', sans-serif, monospace;
 }
 
@@ -46,10 +46,11 @@ h4:hover {
 
 .link-item {
   margin: 0.5rem 0;
-  color: #13ee04;  /* Classic green for hyperlinks */
-  text-decoration: underline;
+  color: black;  /* Changed from green to black */
+  text-decoration: none;  /* Removed underline */
 }
 
+/* Existing hover styles */
 .link-item.twitter:hover {
   color: #648fff;
 }
@@ -110,6 +111,25 @@ h4:hover {
   color: #4b1f89;
 }
 
-.link-section:hover {
-  color: #785ef0;  /* IBM design color for link-section hover */
+/* New hover styles for new link items */
+
+/* Chats & Guilds Section */
+.link-item.cag:hover,
+.link-item.discord:hover,
+.link-item.tg\:marketualresearchunit:hover,
+.link-item.tg\:unconditionalacceleration:hover,
+.link-item.tg\:farcasteristanbul:hover,
+.link-item.tg\:devcoffee:hover,
+.link-item.tg\:writingnfts:hover,
+.link-item.matrix:hover {
+  color: #7B68EE;  /* MediumSlateBlue */
+}
+
+/* Aggregators Section */
+.link-item.linktree:hover,
+.link-item.nftd:hover,
+.link-item.luma:hover,
+.link-item.cardco:hover,
+.link-item.readcv:hover {
+  color: #EE82EE;  /* Violet */
 }
