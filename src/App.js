@@ -66,6 +66,12 @@ function App() {
           </div>
         </section>
       </main>
+      <div>
+        <p>Buy me some time:</p>
+        <p>BTC: bc1pygyz0upj3hnqph7hd7se47fj245fuc5pxu3ugs24re6j0hhvtepsdq4qj9</p>
+        <p>ETH: 0x36de990133d36d7e3df9a820aa3ede5a2320de71</p>
+        <p>ZCash: t1KGW4ttsi4Dk9NpMMXacuo1BGq51qMHPDh</p>
+      </div>
     </div>
   );
 }
