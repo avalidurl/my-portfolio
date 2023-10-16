@@ -15,6 +15,7 @@ h1 {
 
 h1:hover {
   color: #648fff;
+  background-color: #f1f1f1;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
 
 h2:hover {
   color: #785ef0;
+  background-color: #f1f1f1;
 }
 
 h4 {
@@ -31,6 +33,7 @@ h4 {
 
 h4:hover {
   color: #ffb000;
+  background-color: #f1f1f1;
 }
 
 .link-section {
@@ -48,81 +51,100 @@ h4:hover {
   margin: 0.5rem 0;
   color: black;
   text-decoration: none;
+  padding: 5px; /* Added padding for hover background */
 }
 
 /* Existing hover styles */
 .link-item.twitter:hover {
   color: #648fff;
+  background-color: #f1f1f1;
 }
 
 .link-item.github:hover {
   color: #785ef0;
+  background-color: #f1f1f1;
 }
 
 .link-item.farcaster:hover {
   color: #ffb000;
+  background-color: #f1f1f1;
 }
 
 .link-item.lens:hover {
   color: #fe6100;
+  background-color: #f1f1f1;
 }
 
 .link-item.bluesky:hover {
   color: #dc267f;
+  background-color: #f1f1f1;
 }
 
 /* New hover styles for new link items */
 
 /* Chats & Guilds Section */
 .link-item.cag:hover {
-  color: #9370DB;  /* MediumPurple */
+  color: #9370DB;
+  background-color: #f1f1f1;
 }
 
 .link-item.discord:hover {
-  color: #4B0082;  /* Indigo */
+  color: #4B0082;
+  background-color: #f1f1f1;
 }
 
 .link-item.tg\:marketualresearchunit:hover {
-  color: #7B68EE;  /* MediumSlateBlue */
+  color: #7B68EE;
+  background-color: #f1f1f1;
 }
 
 .link-item.tg\:unconditionalacceleration:hover {
-  color: #8B008B;  /* DarkMagenta */
+  color: #8B008B;
+  background-color: #f1f1f1;
 }
 
 .link-item.tg\:farcasteristanbul:hover {
-  color: #9400D3;  /* Violet */
+  color: #9400D3;
+  background-color: #f1f1f1;
 }
 
 .link-item.tg\:devcoffee:hover {
-  color: #9932CC;  /* DarkOrchid */
+  color: #9932CC;
+  background-color: #f1f1f1;
 }
 
 .link-item.tg\:writingnfts:hover {
-  color: #BA55D3;  /* MediumOrchid */
+  color: #BA55D3;
+  background-color: #f1f1f1;
 }
 
 .link-item.matrix:hover {
-  color: #DA70D6;  /* Orchid */
+  color: #DA70D6;
+  background-color: #f1f1f1;
 }
 
 /* Aggregators Section */
 .link-item.linktree:hover {
-  color: #EE82EE;  /* Violet */
+  color: #EE82EE;
+  background-color: #f1f1f1;
 }
 
 .link-item.nftd:hover {
-  color: #FF00FF;  /* Magenta */
+  color: #FF00FF;
+  background-color: #f1f1f1;
 }
 
 .link-item.luma:hover {
-  color: #DB7093;  /* PaleVioletRed */
+  color: #DB7093;
+  background-color: #f1f1f1;
 }
 
 .link-item.cardco:hover {
-  color: #FF1493;  /* DeepPink */
+  color: #FF1493;
+  background-color: #f1f1f1;
 }
 
 .link-item.readcv:hover {
-  color: #C71585;  /* MediumVioletRed */
+  color: #C71585;
+  background-color: #f1f1f1;
 }
